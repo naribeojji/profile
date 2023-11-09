@@ -1,0 +1,70 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'nari-font', serif;
+}
+
+@font-face {
+    font-family: "nari-font";
+    src: url("./font/asdf.ttf") format("truetype");
+    font-weight: normal;
+  } 
+
+
+.title {
+    font-size: 65px;
+
+    text-align: center;
+    /* border-bottom: 1px solid rgb(254, 178, 219); */
+    background-color: rgb(255, 205, 232);
+    padding: 20px 0;
+    margin-bottom: 40px;
+    
+}
+
+.box1 {
+    display: flex;
+}
+
+.box2 {
+    padding: 40px;
+    font-size: 23px;
+    font-family: 'nari-font', serif;
+
+}
+
+.left-box1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.left-box1-image {
+    height: 400px;
+}
+
+.right-box1 {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.col {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.col-title {
+    width: 150px;
+}
+
+.col-value {
+    flex: 1;
+}
